@@ -53,6 +53,14 @@ body {
 	text-align: center;
 }
 
+#advice-generator__number {
+	color: var(--neon-green);
+	font-weight: 800;
+	font-size: 1.35rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.345rem;
+}
+
 .attribution {
 	font-size: 1.3rem; 
 	font-weight: 400;
