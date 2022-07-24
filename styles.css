@@ -21,6 +21,11 @@
 
 body {
 	font-family: 'Manrope', sans-serif;
+	background-color: var(--dark-blue);
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding-inline: 1.6rem;
 }
 
 .attribution {
