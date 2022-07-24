@@ -31,6 +31,28 @@ body {
 	padding-inline: 1.6rem;
 }
 
+.advice-generator {
+	width: 100%;
+	/* 
+	 * Container should have a max-width
+	 * of 540px on Desktop, 54rem = 540px.
+	 */
+	max-width: 54rem;
+	display: grid;
+	grid: max-content 3.2rem / 1fr;
+}
+
+.advice-generator__output {
+	background-color: var(--dark-grayish-blue);
+	border-radius: 1rem;
+	padding: 4rem 2.4rem 6.4rem;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 2.4rem;
+	place-items: center;
+	text-align: center;
+}
+
 .attribution {
 	font-size: 1.3rem; 
 	font-weight: 400;
