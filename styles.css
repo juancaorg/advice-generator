@@ -80,6 +80,26 @@ picture > img {
 	width: 100%;
 }
 
+.advice-generator__button {
+	background-color: var(--neon-green);
+	border-radius: 50%;
+	width: 6.4rem;
+	height: 6.4rem;
+	grid-column: 1 / 2;
+	place-self: end center;
+}
+
+.advice-generator__button:hover {
+	cursor: pointer;
+	box-shadow: 0 0 20px var(--neon-green);
+	animation: dice-rotation 2s infinite;
+}
+
+.advice-generator__button-img:active {
+	box-shadow: 0 0 20px var(--neon-green);
+	animation: dice-rotation 2s infinite;
+}
+
 .attribution {
 	color: var(--light-cyan);
 	font-size: 1.3rem; 
@@ -94,6 +114,12 @@ picture > img {
 
 .attribution a:hover {
 	color: var(--attribution-blue);
+}
+
+@keyframes dice-rotation {
+	0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @media screen and (max-width: 768px) {
