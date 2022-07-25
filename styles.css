@@ -53,7 +53,7 @@ body {
 	text-align: center;
 }
 
-#advice-generator__number {
+#advice-generator__title {
 	color: var(--neon-green);
 	font-weight: 400;
 	font-size: 1.25rem;
@@ -123,7 +123,7 @@ picture > img {
 }
 
 @media screen and (max-width: 768px) {
-  #advice-generator__number {
+  #advice-generator__title {
   	font-size: 1.1rem;
   	line-height: 1.2rem;
   	letter-spacing: 0.45rem;
