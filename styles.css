@@ -71,6 +71,7 @@ body {
 }
 
 .attribution {
+	color: var(--light-cyan);
 	font-size: 1.3rem; 
 	font-weight: 400;
 	text-align: center;
@@ -78,11 +79,11 @@ body {
 
 .attribution a { 
 	text-decoration: none;
-	color: var(--attribution-blue); 
+	color: var(--brandeis-blue); 
 }
 
 .attribution a:hover {
-	color: var(--brandeis-blue);
+	color: var(--attribution-blue);
 }
 
 @media screen and (max-width: 768px) {
