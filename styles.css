@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
 :root, * {
 	box-sizing: border-box;
@@ -61,6 +61,15 @@ body {
 	letter-spacing: 0.5rem;
 }
 
+.advice-generator__quote {
+	color: var(--light-cyan);
+	font-weight: 700;
+  margin-bottom: 1.6rem;
+	font-size: 2.8rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.03rem;
+}
+
 .attribution {
 	font-size: 1.3rem; 
 	font-weight: 400;
@@ -81,5 +90,11 @@ body {
   	font-size: 1.1rem;
   	line-height: 1.2rem;
   	letter-spacing: 0.45rem;
+  }
+
+  .advice-generator__quote {
+		font-size: 2.4rem;
+		line-height: 3.3rem;
+		letter-spacing: 0.025rem;
   }
 }
