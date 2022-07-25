@@ -70,6 +70,16 @@ body {
   letter-spacing: 0.03rem;
 }
 
+.advice-generator__divider {
+	width: 100%;
+	display: flex;
+}
+
+picture > img {
+	margin: auto;
+	width: 100%;
+}
+
 .attribution {
 	color: var(--light-cyan);
 	font-size: 1.3rem; 
@@ -98,4 +108,8 @@ body {
 		line-height: 3.3rem;
 		letter-spacing: 0.025rem;
   }
+
+  picture > img {
+		width: 85%;
+	}
 }
