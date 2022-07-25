@@ -55,10 +55,10 @@ body {
 
 #advice-generator__number {
 	color: var(--neon-green);
-	font-weight: 800;
-	font-size: 1.35rem;
-	line-height: 1.5rem;
-	letter-spacing: 0.345rem;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 1.3rem;
+	letter-spacing: 0.5rem;
 }
 
 .attribution {
@@ -74,4 +74,12 @@ body {
 
 .attribution a:hover {
 	color: var(--brandeis-blue);
+}
+
+@media screen and (max-width: 768px) {
+  #advice-generator__number {
+  	font-size: 1.1rem;
+  	line-height: 1.2rem;
+  	letter-spacing: 0.45rem;
+  }
 }
