@@ -92,12 +92,10 @@ picture > img {
 .advice-generator__button:hover {
 	cursor: pointer;
 	box-shadow: 0 0 20px var(--neon-green);
-	animation: dice-rotation 2s infinite;
 }
 
-.advice-generator__button-img:active {
-	box-shadow: 0 0 20px var(--neon-green);
-	animation: dice-rotation 2s infinite;
+.advice-generator__button:active {
+	transform: translateY(0.35rem);
 }
 
 .attribution {
@@ -114,12 +112,6 @@ picture > img {
 
 .attribution a:hover {
 	color: var(--attribution-blue);
-}
-
-@keyframes dice-rotation {
-	0% { transform: rotate(0deg); }
-  50% { transform: rotate(180deg); }
-  100% { transform: rotate(360deg); }
 }
 
 @media screen and (max-width: 768px) {
