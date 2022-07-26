@@ -19,7 +19,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/juancaorg/advice-generator)
-- Live Site URL: [qrcode.juanca.dev](https://advices.juanca.dev)
+- Live Site URL: [advices.juanca.dev](https://advices.juanca.dev)
 
 ## Built with
 
