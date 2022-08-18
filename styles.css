@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 
-:root, * {
+:root,
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -23,7 +24,7 @@
 }
 
 body {
-	font-family: 'Manrope', sans-serif;
+	font-family: "Manrope", sans-serif;
 	background-color: var(--dark-blue);
 	min-height: 100vh;
 	display: grid;
@@ -64,10 +65,10 @@ body {
 .advice-generator__quote {
 	color: var(--light-cyan);
 	font-weight: 700;
-  margin-bottom: 1.6rem;
+	margin-bottom: 1.6rem;
 	font-size: 2.8rem;
-  line-height: 3.8rem;
-  letter-spacing: 0.03rem;
+	line-height: 3.8rem;
+	letter-spacing: 0.03rem;
 }
 
 .advice-generator__divider {
@@ -100,14 +101,14 @@ picture > img {
 
 .attribution {
 	color: var(--light-cyan);
-	font-size: 1.3rem; 
+	font-size: 1.3rem;
 	font-weight: 400;
 	text-align: center;
 }
 
-.attribution a { 
+.attribution a {
 	text-decoration: none;
-	color: var(--brandeis-blue); 
+	color: var(--brandeis-blue);
 }
 
 .attribution a:hover {
@@ -115,19 +116,19 @@ picture > img {
 }
 
 @media screen and (max-width: 768px) {
-  #advice-generator__title {
-  	font-size: 1.1rem;
-  	line-height: 1.2rem;
-  	letter-spacing: 0.45rem;
-  }
+	#advice-generator__title {
+		font-size: 1.1rem;
+		line-height: 1.2rem;
+		letter-spacing: 0.45rem;
+	}
 
-  .advice-generator__quote {
+	.advice-generator__quote {
 		font-size: 2.4rem;
 		line-height: 3.3rem;
 		letter-spacing: 0.025rem;
-  }
+	}
 
-  picture > img {
+	picture > img {
 		width: 85%;
 	}
 }
