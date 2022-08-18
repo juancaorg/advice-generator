@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Hack to import a favicon from another, already live website -->
-  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?
-domain=www.juanca.org" />
-  <link rel="stylesheet" href="./styles.css" />
-  <!-- The 'defer' boolean attribute is set to indicate to the browser that the script is meant to be executed after the document has been parsed -->
-  <script defer src="./app.js"></script>
-  <title>Advice Generator | juanca.dev</title>
-</head>
-<body>
-  <main class="advice-generator">
-    <div class="advice-generator__output">
-      <h1 id="advice-generator__title">ADVICE #<span id="advice-generator__number">42</span></h1>
-      <q class="advice-generator__quote">The scariest moment is always just before you start.</q>
-      <picture class="advice-generator__divider">
-        <!-- If width is less than 768px, use mobile SVG -->
-        <source media="(max-width: 768px)"
-          srcset="./images/pattern-divider-mobile.svg"  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hack to import a favicon from another, already live website -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=www.juanca.org"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- The 'defer' boolean attribute is set to indicate to the browser that the script is meant to be executed after the document has been parsed -->
+    <script defer src="./app.js"></script>
+    <title>Advice Generator | juanca.dev</title>
+  </head>
+  <body>
+    <main class="advice-generator">
+      <div class="advice-generator__output">
+        <h1 id="advice-generator__title">
+          ADVICE #<span id="advice-generator__number">42</span>
+        </h1>
+        <q class="advice-generator__quote"
+          >The scariest moment is always just before you start.</q
+        >
+        <picture class="advice-generator__divider">
+          <!-- If width is less than 768px, use mobile SVG -->
+          <source
+            media="(max-width: 768px)"
+            srcset="./images/pattern-divider-mobile.svg"
+          />
+          <!-- Otherwise use desktop SVG by default -->
+          <img
+            src="./images/pattern-divider-desktop.svg"
+            alt="Divider line vector image"
+          />
+        </picture>
+      </div>
+      <button class="advice-generator__button">
+        <img
+          src="./images/icon-dice.svg"
+          alt="Dice vector icon"
+          class="advice-generator__button-img"
         />
-        <!-- Otherwise use desktop SVG by default -->
-        <img src="./images/pattern-divider-desktop.svg"
-          alt="Divider line vector image"
-        />
-      </picture>
+      </button>
+    </main>
+    <div class="attribution" role="complementary">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.juanca.org">@juancaorg</a>.
     </div>
-    <button class="advice-generator__button">
-      <img src="./images/icon-dice.svg"
-        alt="Dice vector icon"
-        class="advice-generator__button-img"
-      />
-    </button>
-  </main>
-  <div class="attribution" role="complementary">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.juanca.org">@juancaorg</a>.
-  </div>
-</body>
+  </body>
 </html>
