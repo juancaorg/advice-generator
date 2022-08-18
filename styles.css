@@ -28,7 +28,7 @@ body {
 	background-color: var(--dark-blue);
 	min-height: 100vh;
 	display: grid;
-	place-items: center;
+	place-content: center;
 	padding-inline: 1.6rem;
 }
 
@@ -104,6 +104,7 @@ picture > img {
 	font-size: 1.3rem;
 	font-weight: 400;
 	text-align: center;
+	padding-top: 1.5rem;
 }
 
 .attribution a {
