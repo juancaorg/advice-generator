@@ -10,9 +10,9 @@
 
 :root {
   /*
-		By default in modern browsers, 
-		1rem = 16px. By using this, 1rem = 10px.
-	*/
+   * By default in modern browsers,
+   * 1rem = 16px. By using this, 1rem = 10px.
+   */
   font-size: 62.5%;
   --light-cyan: hsl(193, 38%, 86%);
   --neon-green: hsl(150, 100%, 66%);
@@ -35,9 +35,9 @@ body {
 .advice-generator {
   width: 100%;
   /*
-	 * Container should have a max-width
-	 * of 540px on Desktop, 54rem = 540px.
-	 */
+  * Container should have a max-width
+  * of 540px on Desktop, 54rem = 540px.
+  */
   max-width: 54rem;
   display: grid;
   grid: max-content 3.2rem / 1fr;
