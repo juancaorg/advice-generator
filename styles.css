@@ -2,134 +2,134 @@
 
 :root,
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 :root {
-	/* 
+  /*
 		By default in modern browsers, 
 		1rem = 16px. By using this, 1rem = 10px.
 	*/
-	font-size: 62.5%;
-	--light-cyan: hsl(193, 38%, 86%);
-	--neon-green: hsl(150, 100%, 66%);
-	--grayish-blue: hsl(217, 19%, 38%);
-	--dark-grayish-blue: hsl(217, 19%, 24%);
-	--dark-blue: hsl(218, 23%, 16%);
-	--attribution-blue: hsl(228, 45%, 44%);
-	--brandeis-blue: hsl(212, 95%, 48%);
+  font-size: 62.5%;
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+  --attribution-blue: hsl(228, 45%, 44%);
+  --brandeis-blue: hsl(212, 95%, 48%);
 }
 
 body {
-	font-family: "Manrope", sans-serif;
-	background-color: var(--dark-blue);
-	min-height: 100vh;
-	display: grid;
-	place-content: center;
-	padding-inline: 1.6rem;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--dark-blue);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  padding-inline: 1.6rem;
 }
 
 .advice-generator {
-	width: 100%;
-	/* 
+  width: 100%;
+  /*
 	 * Container should have a max-width
 	 * of 540px on Desktop, 54rem = 540px.
 	 */
-	max-width: 54rem;
-	display: grid;
-	grid: max-content 3.2rem / 1fr;
+  max-width: 54rem;
+  display: grid;
+  grid: max-content 3.2rem / 1fr;
 }
 
 .advice-generator__output {
-	background-color: var(--dark-grayish-blue);
-	border-radius: 1rem;
-	padding: 4rem 2.4rem 6.4rem;
-	display: flex;
-	flex-flow: column nowrap;
-	gap: 2.4rem;
-	place-items: center;
-	text-align: center;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 1rem;
+  padding: 4rem 2.4rem 6.4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.4rem;
+  place-items: center;
+  text-align: center;
 }
 
 #advice-generator__title {
-	color: var(--neon-green);
-	font-weight: 400;
-	font-size: 1.25rem;
-	line-height: 1.3rem;
-	letter-spacing: 0.5rem;
+  color: var(--neon-green);
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.5rem;
 }
 
 .advice-generator__quote {
-	color: var(--light-cyan);
-	font-weight: 700;
-	margin-bottom: 1.6rem;
-	font-size: 2.8rem;
-	line-height: 3.8rem;
-	letter-spacing: 0.03rem;
+  color: var(--light-cyan);
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.03rem;
 }
 
 .advice-generator__divider {
-	width: 100%;
-	display: flex;
+  width: 100%;
+  display: flex;
 }
 
 picture > img {
-	margin: auto;
-	width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 .advice-generator__button {
-	background-color: var(--neon-green);
-	border-radius: 50%;
-	width: 6.4rem;
-	height: 6.4rem;
-	grid-column: 1 / 2;
-	place-self: end center;
+  background-color: var(--neon-green);
+  border-radius: 50%;
+  width: 6.4rem;
+  height: 6.4rem;
+  grid-column: 1 / 2;
+  place-self: end center;
 }
 
 .advice-generator__button:hover {
-	cursor: pointer;
-	box-shadow: 0 0 20px var(--neon-green);
+  cursor: pointer;
+  box-shadow: 0 0 20px var(--neon-green);
 }
 
 .advice-generator__button:active {
-	transform: translateY(0.35rem);
+  transform: translateY(0.35rem);
 }
 
 .attribution {
-	color: var(--light-cyan);
-	font-size: 1.3rem;
-	font-weight: 400;
-	text-align: center;
-	padding-top: 1.5rem;
+  color: var(--light-cyan);
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 
 .attribution a {
-	text-decoration: none;
-	color: var(--brandeis-blue);
+  text-decoration: none;
+  color: var(--brandeis-blue);
 }
 
 .attribution a:hover {
-	color: var(--attribution-blue);
+  color: var(--attribution-blue);
 }
 
 @media screen and (max-width: 768px) {
-	#advice-generator__title {
-		font-size: 1.1rem;
-		line-height: 1.2rem;
-		letter-spacing: 0.45rem;
-	}
+  #advice-generator__title {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.45rem;
+  }
 
-	.advice-generator__quote {
-		font-size: 2.4rem;
-		line-height: 3.3rem;
-		letter-spacing: 0.025rem;
-	}
+  .advice-generator__quote {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.025rem;
+  }
 
-	picture > img {
-		width: 85%;
-	}
+  picture > img {
+    width: 85%;
+  }
 }
