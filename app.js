@@ -1,5 +1,5 @@
 const API_URL = "https://api.adviceslip.com/advice";
-const adviceNumber = document.getElementById("advice-generator__number");
+const adviceNumber = document.querySelector("#advice-generator__number");
 const adviceQuote = document.querySelector(".advice-generator__quote");
 const fetchButton = document.querySelector(".advice-generator__button");
 
