@@ -38,7 +38,7 @@ body {
   */
   max-width: 54rem;
   width: 100%;
-  margin: 350px auto 250px;
+  margin: 350px auto 150px;
   display: grid;
   grid: max-content 3.2rem / 1fr;
 }
