@@ -103,6 +103,7 @@ picture > img {
   color: var(--light-cyan);
   font-size: 1.3rem;
   font-weight: 400;
+  margin-top: 1rem;
   text-align: center;
 }
 
