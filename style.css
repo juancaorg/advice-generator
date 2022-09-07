@@ -38,7 +38,7 @@ body {
   */
   max-width: 54rem;
   width: 100%;
-  margin: 30rem auto 15rem;
+  margin: auto;
   display: grid;
   grid: max-content 3.2rem / 1fr;
 }
@@ -103,8 +103,8 @@ picture > img {
   color: var(--light-cyan);
   font-size: 1.3rem;
   font-weight: 400;
+  margin-bottom: 3.2rem;
   text-align: center;
-  padding-top: 1.5rem;
 }
 
 .attribution a {
