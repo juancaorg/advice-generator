@@ -76,7 +76,7 @@ body {
   display: flex;
 }
 
-picture > img {
+picture>img {
   margin: auto;
   width: 100%;
 }
@@ -129,7 +129,7 @@ picture > img {
     letter-spacing: 0.025rem;
   }
 
-  picture > img {
+  picture>img {
     width: 85%;
   }
 }
